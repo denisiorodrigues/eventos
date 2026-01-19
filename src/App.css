@@ -10,3 +10,13 @@ header {
   display: flex;
   justify-content: center;
 }
+
+section {
+  background: linear-gradient(180deg, #17D9B1 0%, #121212 100%);
+  display: flex;
+  justify-content: center;
+}
+
+section img {
+  max-width: 90%;
+}
