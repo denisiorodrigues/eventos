@@ -1,4 +1,12 @@
-# React + Vite
+# Eventos
+
+Projeto serve como laboratório de desenvolvimento para a aplicação React JS no front-end e com .NET no back-end.
+
+## Layout do projeto
+
+[Projeto no Figma da alura.](https://www.figma.com/community/file/1490097519019624965/node-react-e-vite-tecboard)
+
+--- 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
