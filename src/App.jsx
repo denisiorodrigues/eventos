@@ -2,6 +2,7 @@ import './App.css'
 import { FormularioDeEvento } from './components/FormularioDeEvento'
 import { Banner } from './components/Banner'
 import { Tema } from './components/Tema'
+import { CardEvento } from './components/CardEvento';
 
 function App() {
   const temas = [
@@ -12,6 +13,15 @@ function App() {
     { id: 5, nome: "data science" },
     { id: 6, nome: "cloud" },
     { id: 7, nome: "database" },
+  ];
+
+  const eventos = [
+    {
+      capa: "https://raw.githubusercontent.com/viniciosneves/tecboard-assets/refs/heads/main/imagem_1.png",
+      tema: temas[0],
+      data: new Date(),
+      titulo: "Mulheres no Front",
+    },
   ];
 
   return (
@@ -26,6 +36,7 @@ function App() {
         {temas.map((tema) => (
           <section key={tema.id} className="tema-section">
             <Tema tema={tema} />
+            <CardEvento evento={eventos[0]}/>
           </section>
         ))}
       </main>
