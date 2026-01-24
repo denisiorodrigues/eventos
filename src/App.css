@@ -11,12 +11,13 @@ header {
   justify-content: center;
 }
 
-section {
-  background: linear-gradient(180deg, #17D9B1 0%, #121212 100%);
-  display: flex;
-  justify-content: center;
+h3 {
+  font-family: 'Arial, sans-serif';
+  color: #333;
 }
 
-section img {
-  max-width: 90%;
+.tema-section {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px 0;
 }
