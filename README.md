@@ -6,6 +6,19 @@ Projeto serve como laboratório de desenvolvimento para a aplicação React JS n
 
 [Projeto no Figma da alura.](https://www.figma.com/community/file/1490097519019624965/node-react-e-vite-tecboard)
 
+
+### Tipografia padrão
+```css
+.nome-da-classe {
+    font-family:"Orbitron", sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 120%;
+    letter-spacing: 10%;
+    vertical-align: middle;
+}
+```
+
 --- 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
