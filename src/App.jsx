@@ -31,7 +31,7 @@ function App() {
           <img src="/logo.png" alt="App evento logo" />
         </header>
         <Banner />
-        <FormularioDeEvento />
+        <FormularioDeEvento temas={temas}/>
 
         {temas.map((tema) => (
           <section key={tema.id} className="tema-section">

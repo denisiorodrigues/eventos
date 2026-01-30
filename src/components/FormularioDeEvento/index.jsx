@@ -7,7 +7,7 @@ import { CampoDeEntrada } from "../CampoDeEntrada";
 import { ListaSuspensa } from "../ListaSuspensa";
 import { Botao } from "../Botao";
 
-export function FormularioDeEvento() {
+export function FormularioDeEvento({temas}) {
 
   return (
     <>
@@ -32,7 +32,7 @@ export function FormularioDeEvento() {
           </CampoDeFormulario>
           <CampoDeFormulario>
             <Label htmlFor="dataEvento">Tema do evento</Label>
-            <ListaSuspensa id="temaEvento" placeholder="Selecione uma opção" />
+            <ListaSuspensa id="temaEvento" placeholder="Selecione uma opção" temas={temas}/>
           </CampoDeFormulario>
         </div>
         <div className="acoes">

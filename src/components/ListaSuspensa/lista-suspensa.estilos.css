@@ -5,6 +5,10 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
-    color: #000;
+    color: #fff;
     padding: 8px 16px;
+}
+
+.lista-suspensa-form option{
+    background-color: #4A4949;
 }
